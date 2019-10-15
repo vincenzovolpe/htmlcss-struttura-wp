@@ -117,6 +117,7 @@ main:after {
     height: 300px;
     float: left;
     background-color: white;
+    border-radius: 5px;
 }
 
 .right {
@@ -128,6 +129,7 @@ main:after {
     height: 150px;
     margin-bottom: 10px;
     background-color: white;
+    border-radius: 5px;
 }
 
 .main_content {
@@ -135,6 +137,7 @@ main:after {
     width: 50%;
     height: 300px;
     background-color: white;
+    border-radius: 5px;
 }
 
 footer {
@@ -168,4 +171,13 @@ hr {
 .social i {
     font-size: 40px;
     color: lightgrey;
+}
+.sidebar img {
+    width: 50px;
+    padding: 5px;
+    float: left;
+}
+.sidebar p {
+    padding-top: 20px;
+    float: left;
 }
