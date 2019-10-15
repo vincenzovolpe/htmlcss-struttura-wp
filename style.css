@@ -117,12 +117,26 @@ main:after {
     clear: both;
 }
 
+.left h2 {
+    display: inline-block;
+    font-size: 22px;
+}
+
 .left {
     width: 20%;
-    height: 450px;
     float: left;
     background-color: white;
     border-radius: 5px;
+}
+
+.left a{
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 15px;
 }
 
 .right {
@@ -147,7 +161,6 @@ main:after {
 
 footer {
     background-color: white;
-    height: 130px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -168,14 +181,12 @@ hr {
 
 .size {
     width: 33%;
-    height: 100px;
     float: left;
     text-align: center;
-    line-height: 100px;
+    padding: 30px;
 }
 
 .social .fab {
-    font-size: 40px;
     color: lightgrey;
 
 }
@@ -184,6 +195,13 @@ hr {
     padding: 5px;
     float: left;
 }
+
+.social::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
 .sidebar p {
     padding-top: 20px;
     float: left;
