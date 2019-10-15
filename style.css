@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    height: 800px;
+}
+
+.header_top {
+    background-image: url("https://wallpapercave.com/wp/wrO8O97.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height:450px;
+    border: 10px solid white;
+}
+
+#logo {
+    width: 32%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    text-align: center;
+}
+
+#logo h1 {
+    color: white;
+    font-size: 80px;
+}
+
+#claim {
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#claim h2{
+    color: white;
+    font-size: 25px;
+}
+
+.header_top #icon{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.header_top img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header_bottom {
+    height: 50px;
+    background-color: grey;
+}
+
+/* Menù */
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav ul {
+    display: inline-block;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:15px;
+    text-decoration: none;
+    color: white;
+}
+/* Fine Menù*/
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 20%;
+    height: 300px;
+    float: left;
+    background-color: white;
+}
+
+.right {
+    width: 20%;
+    float: right;
+}
+
+.right .widget {
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.main_content {
+    margin:0 auto;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    height: 130px;
+    border-radius: 5px;
+}
+.firma p{
+    color: grey;
+    text-align: center;
+    font-style: italic;
+}
+hr {
+    border: 1px solid grey;
+}
+
+.firma {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.size {
+    width: 33%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.social i {
+    font-size: 40px;
+    color: lightgrey;
+}
