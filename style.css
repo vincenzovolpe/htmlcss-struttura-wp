@@ -57,12 +57,12 @@ body {
 
 .header_top #icon{
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .header_top img{
@@ -98,6 +98,11 @@ body {
     padding:15px;
     text-decoration: none;
     color: white;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color: black;
 }
 /* Fine Menù*/
 
